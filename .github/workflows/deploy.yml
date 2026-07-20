@@ -1,12 +1,14 @@
 name: MY Pizza Delivery
+
 on: push
 
-jobs: 
-    Order-Online:
-        runs-on: macos-latest
-        steps: 
-            - name: Open Mobile
-             run: echo "Opened Mobile"
+jobs:
+  Order-Online:
+    runs-on: macos-latest
+
+    steps:
+      - name: Open Mobile
+        run: echo "Opened Mobile"
 
 
 
