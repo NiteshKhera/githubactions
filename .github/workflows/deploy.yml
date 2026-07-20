@@ -1,6 +1,6 @@
 name: MY Pizza Delivery
 
-on: push
+on: workflow_dispatch
 
 jobs:
   Order-Online:
