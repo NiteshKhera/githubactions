@@ -1,6 +1,6 @@
 name: MY Pizza Delivery
 
-on: [push,workflow_dispatch]
+on: [push, workflow_dispatch]
 
 jobs:
   Order-Online:
@@ -14,10 +14,14 @@ jobs:
         run: echo "I want to eat Pizza"
 
       - name: Make Payment
-        run: echo "Make the payment of $50"
+        run: echo "Make the payment of \$50"
 
+  Eat-Food:
+    runs-on: ubuntu-latest
 
+    steps:
+      - name: Open Mouth
+        run: echo "Open Mouth"
 
-
-
-
+      - name: Eat the Food
+        run: echo "Eat the Food"
